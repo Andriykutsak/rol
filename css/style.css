@@ -1,0 +1,159 @@
+/*load bar*/
+.bar-wrap{
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.bar {
+	
+  width: 50%;
+  margin: 20% auto;
+  height: 20px;
+  border: 1px solid #2980b9;
+  border-radius: 3px;
+  background-image: 
+    repeating-linear-gradient(
+      -45deg,
+      #2980b9,
+      #2980b9 11px,
+      #eee 10px,
+      #eee 20px /* determines size */
+    );
+  background-size: 28px 28px;
+  animation: move .5s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 28px 0;
+  }
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+h2,h3,p{
+	font-family: Roboto;
+}
+.row{
+	margin: 0 0;
+}
+.main-bg{
+	box-shadow: ;
+	background-color: #28243d;
+}
+/*head*/
+.head h1{
+	font-family: helvetica;
+	font-size: 3.5em;
+	color: #3fcc6a;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.head h2{
+	margin-top: 60px;
+	color: #fff;
+}
+.head p{
+	font-size: 1.5em;
+	line-height: 25px;
+	font-weight: bold;
+	color: #363349;
+}
+.button-get{
+	max-width: 250px;
+	margin: 90px auto;
+	padding: 20px 30px;
+	border-radius: 30px;
+	background-color: #f25a29;
+	text-align: center;
+}
+.button-get a{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+}
+.menu-wrap{
+	margin-top: 100px;
+	padding: 25px 0 200px 0;
+	background-image: url('../img/head_bg.jpg');
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.head .navbar-default{
+	margin-top: 40px;
+	border:  none;
+	background-color: transparent;
+}
+.head .navbar-default a{
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.head .navbar-default .nav li a{
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+/*qiality*/
+.quality{
+	padding: 90px 0 90px 0;
+	background-color: #fff;
+}
+.quality h2{
+	margin-bottom: 67px;
+}
+/*window*/
+.window{
+	padding: 80px 0 80px 0;
+	background-color: #f5f5f5;
+}
+/*user  reword block*/
+.reword-block{
+	padding: 97px 0 97px 0;
+	background-color: #fff;
+}
+.reword-block h2{
+	font-family: Roboto;
+	margin-bottom: 67px;
+}
+.reword-block img{
+	height: 100px;
+	max-width: 100px;
+	border-radius: 50%;
+}
+.reword-block .col-sm-6{
+	margin-top: 20px;
+}
+.reword{
+	padding: 15px 10px;
+	background-color: #dbdbdb;
+	border:  3px solid #e8e8e8; 
+	border-radius: 5px;
+}
+/*career*/
+.career{
+	padding-top: 120px;
+	background-color: #f5f5f5;
+
+}
+.footer{
+	padding: 40px 50px;
+	color: #c5c5c5;
+	background-color: #4a4a4a;
+}
+/*content*/
+.content{
+	padding: 10px 20px;
+	background-color: #fff;
+}
